@@ -20,4 +20,4 @@ jobs:
           echo "test" > test.txt
           git add test.txt
           git commit -m "Test push permission" || echo "No changes"
-          git push origin HEAD:gh-pages
+          git push origin HEAD:gh-pages --force
